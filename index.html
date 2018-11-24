@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link id="favicon" rel="icon" href="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Ffavicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  
+  <div class='todolist'>
+    <h1>The Ugly To-Do List</h1>
+      <div>
+        <button class="toggle" onclick="handlers.toggleAll()">Toggle All</button>
+        <button class="add" onclick="handlers.addTodo()">Add</button>
+        <input id="addTodoTextInput" type="text">
+      </div>
+      
+      <div>
+        <button class="change" onclick="handlers.changeTodo()">Change Todo</button>
+        <input id="changeTodoPositionInput" type="number">
+        <input id="changeTodoTextInput" type="text">
+      </div>
+      
+      <div>
+        <button class="completed" onclick="handlers.toggleCompleted()">Toggle Completed</button>
+        <input id="toggleCompletedPositionInput" type="number">
+      </div>
+      
+      <ul>
+      </ul>
+
+    </div>  
+    <div class="use">
+      <h3>How to Use?</h3>
+      <p>This JavaScript To Do list is fairly easy to use</p><br>
+      <h4>Adding To Do's</h4>
+      <p>First step is to type what you want to have in to do list. After that, click on the button <strong>ADD</strong>.</p><br>
+      <h4>Changing to do's</h4>
+      <p>To change preferred to do, all you have to do is choose which one. The first to do you type have the index 0, 
+        second to do have index 1, and so on. After you choose desired to do, change it to whatever you want, and click
+      <strong>CHANGE TODO</strong> button.</p><br>
+      <h4>Toggle Completed</h4>
+      <p>Principle stays the same as <strong>CHANGE TODO</strong>. Pick the desired to do, insert index, and click <strong>TOGGLE COMPLETED</strong>.</p>
+    </div>
+    <footer class="main-footer">
+        <span>&copy;2018 Made with &hearts; by Mateo Komljenovic.</span>
+      <script src="script.js"></script>
+  </body>
+</html>

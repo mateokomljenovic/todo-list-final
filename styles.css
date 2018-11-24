@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.todolist {
+    font-family: 'Open Sans', sans-serif;
+    border: 3px solid  #4CAF50;
+    box-shadow: 7px 5px rgb(123, 196, 125);
+    border-radius: 20px; 
+    width: 80%; 
+    margin: 0 auto; 
+    margin-top: 40px; 
+    padding: 10px 20px; 
+}
+
+h1,
+h3 {
+    text-align: center; 
+    text-transform: uppercase;
+    text-shadow: 3px 2px rgba(131, 124, 124, 0.452);
+    background-color:  #4CAF50;
+    border: 10px solid #4CAF50; 
+    border-radius: 12px;
+    color: white;  
+}
+
+.add,
+.toggle,
+.change,
+.completed {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    margin: 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#addTodoTextInput,
+#changeTodoPositionInput,
+#changeTodoTextInput,
+#toggleCompletedPositionInput {
+    border: 2px solid #4CAF50;
+    padding: 16px 20px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#changeTodoPositionInput {
+    width: 70px;
+}
+
+button.deleteButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    margin: 0.2em; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul li {
+    list-style-type: none; 
+    font-size: 1.2em;
+    line-height: 1.6; 
+}
+
+.use {
+    font-size: 2em; 
+    font-family: 'Open Sans', sans-serif;
+    width: 70%; 
+    border: 2px solid green;
+    margin: 0 auto; 
+    margin-top: 40px; 
+    padding: 10px 20px
+}
+
+.use h4 {
+    font-size: 22px; 
+    font-family: 'Open Sans', sans-serif; 
+    margin: 10px; 
+    text-align: center; 
+}
+
+.use p {
+    font-size: 16px; 
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px; 
+    text-align: center; 
+}
+
+.main-footer {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    font-size: 24px; 
+    background: #4CAF50;
+    color: white; 
+	padding: 2em 0;
+	margin-top: 50px;
+}
